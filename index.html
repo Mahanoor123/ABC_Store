@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>E-commerce Website</title>
+</head>
+
+<body>
+    <section>
+        <header>
+            <nav>
+                <div class="logo">ABC_Store</div>
+
+                <div class="nav_links">
+                    <a href="index.html">Home</a>
+                    <a href="./product.html">Products</a>
+                    <a href="./details.html">Details</a>
+                    <a href="login.html">Login</a>
+                </div>
+
+                <div class="icons">
+                    <a href="#"><i class="fa-solid fa-phone"></i></a>
+                    <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+                </div>
+            </nav>
+
+            <div class="hero_section">
+                <div class="left_bar">
+                    <h1>Choose Your Style, find your way</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium enim veritatis molestias
+                        quisquam non? Consequatur dolorum beatae rerum quia molestiae.</p>
+                    <button class="book">Book Now</button>
+                </div>
+
+                <div class="right_bar">
+                    <div class="left_btn" onclick="leftButton()"><i class="fa-solid fa-less-than"></i></div>
+                    <div class="right_btn" onclick="righButton()"><i class="fa-solid fa-greater-than"></i></div>
+
+                    <img src="./assets/header_image.jpg" id="hero_img">
+                </div>
+            </div>
+        </header>
+
+
+        <div class="products_container">
+            <div class="product_header">
+                <h1>Top Rated Products</h1>
+                <p>We provide premium quality</p>
+            </div>
+
+            <div class="product_rows">
+                <div class="single_card">
+                    <a href="./product.html">
+                        <div class="card_img">
+                            <img src="./assets/jacket1.jpg">
+                            <div class="fvrt_icons"><i class="fa-solid fa-heart"></i> <i
+                                    class="fa-solid fa-bag-shopping"></i> <i class="fa-solid fa-star"></i></div>
+                        </div>
+                        <div class="card_content">
+                            <h2>Premium quality jacket</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore, iste fuga. Praesentium
+                                ea numquam eius.</p>
+                            <small>$78.09</small>
+                            <button class="store">Store Now</button>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="single_card">
+                    <a href="./product.html">
+                        <div class="card_img">
+                            <img src="./assets/jacket2.jpg">
+                            <div class="fvrt_icons"><i class="fa-solid fa-heart"></i> <i
+                                    class="fa-solid fa-bag-shopping"></i> <i class="fa-solid fa-star"></i></div>
+                        </div>
+                        <div class="card_content">
+                            <h2>Premium quality jacket</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore, iste fuga. Praesentium
+                                ea numquam eius.</p>
+                            <small>$78.09</small>
+                            <button class="store">Store Now</button>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="single_card">
+                    <a href="./product.html">
+                        <div class="card_img">
+                            <img src="./assets/jacket3.jpg">
+                            <div class="fvrt_icons"><i class="fa-solid fa-heart"></i> <i
+                                    class="fa-solid fa-bag-shopping"></i> <i class="fa-solid fa-star"></i></div>
+                        </div>
+                        <div class="card_content">
+                            <h2>Premium quality jacket</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore, iste fuga. Praesentium
+                                ea numquam eius.</p>
+                            <small>$78.09</small>
+                            <button class="store">Store Now</button>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="single_card">
+                    <a href="./product.html">
+                        <div class="card_img">
+                            <img src="./assets/jacket4.jpg">
+                            <div class="fvrt_icons"><i class="fa-solid fa-heart"></i> <i
+                                    class="fa-solid fa-bag-shopping"></i> <i class="fa-solid fa-star"></i></div>
+                        </div>
+                        <div class="card_content">
+                            <h2>Premium quality jacket</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore, iste fuga. Praesentium
+                                ea numquam eius.</p>
+                            <small>$78.09</small>
+                            <button class="store">Store Now</button>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="single_card">
+                    <a href="#">
+                        <div class="card_img">
+                            <img src="./assets/jacket5.jpg">
+                            <div class="fvrt_icons"><i class="fa-solid fa-heart"></i> <i
+                                    class="fa-solid fa-bag-shopping"></i> <i class="fa-solid fa-star"></i></div>
+                        </div>
+                        <div class="card_content">
+                            <h2>Premium quality jacket</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore, iste fuga. Praesentium
+                                ea numquam eius.</p>
+                            <small>$78.09</small>
+                            <button class="store">Store Now</button>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="single_card">
+                    <a href="#">
+                        <div class="card_img">
+                            <img src="./assets/jacket6.jpg">
+                            <div class="fvrt_icons"><i class="fa-solid fa-heart"></i> <i
+                                    class="fa-solid fa-bag-shopping"></i> <i class="fa-solid fa-star"></i></div>
+                        </div>
+                        <div class="card_content">
+                            <h2>Premium quality jacket</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore, iste fuga. Praesentium
+                                ea numquam eius.</p>
+                            <small>$78.09</small>
+                            <button class="store">Store Now</button>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="single_card">
+                    <a href="#">
+                        <div class="card_img">
+                            <img src="./assets/jacket7.jpg">
+                            <div class="fvrt_icons"><i class="fa-solid fa-heart"></i> <i
+                                    class="fa-solid fa-bag-shopping"></i> <i class="fa-solid fa-star"></i></div>
+                        </div>
+                        <div class="card_content">
+                            <h2>Premium quality jacket</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore, iste fuga. Praesentium
+                                ea numquam eius.</p>
+                            <small>$78.09</small>
+                            <button class="store">Store Now</button>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="single_card">
+                    <a href="#">
+                        <div class="card_img">
+                            <img src="./assets/jacket8.jpg">
+                            <div class="fvrt_icons"><i class="fa-solid fa-heart"></i> <i
+                                    class="fa-solid fa-bag-shopping"></i> <i class="fa-solid fa-star"></i></div>
+                        </div>
+                        <div class="card_content">
+                            <h2>Premium quality jacket</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore, iste fuga. Praesentium
+                                ea numquam eius.</p>
+                            <small>$78.09</small>
+                            <button class="store">Store Now</button>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="single_card">
+                    <a href="#">
+                        <div class="card_img">
+                            <img src="./assets/jacket9.jpg">
+                            <div class="fvrt_icons"><i class="fa-solid fa-heart"></i> <i
+                                    class="fa-solid fa-bag-shopping"></i> <i class="fa-solid fa-star"></i></div>
+                        </div>
+                        <div class="card_content">
+                            <h2>Premium quality jacket</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore, iste fuga. Praesentium
+                                ea numquam eius.</p>
+                            <small>$78.09</small>
+                            <button class="store">Store Now</button>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="single_card">
+                    <a href="#">
+                        <div class="card_img">
+                            <img src="./assets/jacket10.jpg">
+                            <div class="fvrt_icons"><i class="fa-solid fa-heart"></i> <i
+                                    class="fa-solid fa-bag-shopping"></i> <i class="fa-solid fa-star"></i></div>
+                        </div>
+                        <div class="card_content">
+                            <h2>Premium quality jacket</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore, iste fuga. Praesentium
+                                ea numquam eius.</p>
+                            <small>$78.09</small>
+                            <button class="store">Store Now</button>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="single_card">
+                    <a href="#">
+                        <div class="card_img">
+                            <img src="./assets/jacket11.jpg">
+                            <div class="fvrt_icons"><i class="fa-solid fa-heart"></i> <i
+                                    class="fa-solid fa-bag-shopping"></i> <i class="fa-solid fa-star"></i></div>
+                        </div>
+                        <div class="card_content">
+                            <h2>Premium quality jacket</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore, iste fuga. Praesentium
+                                ea numquam eius.</p>
+                            <small>$78.09</small>
+                            <button class="store">Store Now</button>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="single_card">
+                    <a href="#">
+                        <div class="card_img">
+                            <img src="./assets/jacket12.jpg">
+                            <div class="fvrt_icons"><i class="fa-solid fa-heart"></i> <i
+                                    class="fa-solid fa-bag-shopping"></i> <i class="fa-solid fa-star"></i></div>
+                        </div>
+                        <div class="card_content">
+                            <h2>Premium quality jacket</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore, iste fuga. Praesentium
+                                ea numquam eius.</p>
+                            <small>$78.09</small>
+                            <button class="store">Store Now</button>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="exclusive">
+            <div class="exclusive_content">
+                <h1>Exclusive Offer</h1>
+                <small>LIMITED OFFER</small>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem debitis voluptas commodi.</p>
+                <button class="shop">Shop Now</button>
+            </div>
+            <div class="exclusive_img">
+                <img src="./assets/jacket14.png">
+            </div>
+        </div>
+
+        <footer>
+            <div class="main_footer">
+                <div class="foot_logo">
+                    <h2>ABC_Store</h2>
+                    <p><i class="fa-solid fa-envelope"></i> abc@gmail.com</p>
+                    <p> <i class="fa-solid fa-phone"></i> +980-000-7765</p>
+
+                </div>
+
+                <div class="foot_links">
+                    <h4>Quick Links</h4>
+                    <a href="#">Home</a>
+                    <a href="#">Products</a>
+                    <a href="#">Details</a>
+                    <a href="#">Login</a>
+                </div>
+
+                <div class="external_links">
+                    <h4>External Links</h4>
+                    <a href="#">Coupons</a>
+                    <a href="#">Return & Exchange</a>
+                    <a href="#">Helpline</a>
+                    <a href="#">Newsletter</a>
+                </div>
+
+                <div class="foot_socials">
+                    <h4>Social Links</h4>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-pinterest"></i>
+                </div>
+            </div>
+
+            <div class="sub_footer">
+                <h4>Subscribe our Newsletter</h4>
+                <div class="input">
+                    <input type="text" placeholder="Enter your Email">
+                    <button class="subscribe">Subscribe</button>
+                </div>
+            </div>
+
+            <div class="copy_rights">
+                <p>&copy; All Rigts are reseved - 2024</p>
+            </div>
+        </footer>
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
